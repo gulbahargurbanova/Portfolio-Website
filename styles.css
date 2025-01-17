@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header.hero {
+    background: linear-gradient(90deg, #ff7eb3, #ff758c);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+nav {
+    background: #ff758c;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+section.about {
+    background: #ffe0e6;
+}
+
+section.skills {
+    background: #ffb6c1;
+    color: white;
+}
+
+section.projects {
+    background: #ffccd5;
+}
+
+section.contact {
+    background: #ffc1e3;
+    color: white;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-item {
+    text-align: center;
+    border: 2px solid #ff758c;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+}
+
+.gallery-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+footer {
+    background: #ff758c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+button {
+    background: #ff758c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff5673;
+}
